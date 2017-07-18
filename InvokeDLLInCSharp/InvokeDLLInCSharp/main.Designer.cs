@@ -39,6 +39,7 @@
             this.btnDoTest.TabIndex = 0;
             this.btnDoTest.Text = "DoTest";
             this.btnDoTest.UseVisualStyleBackColor = true;
+            this.btnDoTest.Click += new System.EventHandler(this.btnDoTest_Click);
             // 
             // main
             // 

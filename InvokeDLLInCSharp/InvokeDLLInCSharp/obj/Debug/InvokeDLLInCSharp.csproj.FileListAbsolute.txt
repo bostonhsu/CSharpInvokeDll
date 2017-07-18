@@ -1,1 +1,9 @@
 C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\InvokeDLLInCSharp\InvokeDLLInCSharp\bin\Debug\InvokeDLLInCSharp.exe.config
+C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\InvokeDLLInCSharp\InvokeDLLInCSharp\bin\Debug\InvokeDLLInCSharp.exe
+C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\InvokeDLLInCSharp\InvokeDLLInCSharp\bin\Debug\InvokeDLLInCSharp.pdb
+C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\InvokeDLLInCSharp\InvokeDLLInCSharp\obj\Debug\InvokeDLLInCSharp.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\InvokeDLLInCSharp\InvokeDLLInCSharp\obj\Debug\InvokeDLLInCSharp.main.resources
+C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\InvokeDLLInCSharp\InvokeDLLInCSharp\obj\Debug\InvokeDLLInCSharp.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\InvokeDLLInCSharp\InvokeDLLInCSharp\obj\Debug\InvokeDLLInCSharp.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\InvokeDLLInCSharp\InvokeDLLInCSharp\obj\Debug\InvokeDLLInCSharp.exe
+C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\InvokeDLLInCSharp\InvokeDLLInCSharp\obj\Debug\InvokeDLLInCSharp.pdb
