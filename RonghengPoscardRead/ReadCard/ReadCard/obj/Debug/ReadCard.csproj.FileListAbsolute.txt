@@ -1,0 +1,17 @@
+D:\Demo\VS2008\ReadCard\ReadCard\obj\Debug\ResolveAssemblyReference.cache
+D:\Demo\VS2008\ReadCard\ReadCard\obj\Debug\ReadCard.Form1.resources
+D:\Demo\VS2008\ReadCard\ReadCard\obj\Debug\ReadCard.Properties.Resources.resources
+D:\Demo\VS2008\ReadCard\ReadCard\obj\Debug\ReadCard.csproj.GenerateResource.Cache
+D:\Demo\VS2008\ReadCard\ReadCard\bin\Debug\ReadCard.exe
+D:\Demo\VS2008\ReadCard\ReadCard\bin\Debug\ReadCard.pdb
+D:\Demo\VS2008\ReadCard\ReadCard\obj\Debug\ReadCard.exe
+D:\Demo\VS2008\ReadCard\ReadCard\obj\Debug\ReadCard.pdb
+D:\ReadCard\ReadCard\bin\Debug\ReadCard.exe.config
+D:\ReadCard\ReadCard\obj\Debug\ReadCard.exe
+D:\ReadCard\ReadCard\obj\Debug\ReadCard.pdb
+D:\ReadCard\ReadCard\bin\Debug\ReadCard.exe
+D:\ReadCard\ReadCard\bin\Debug\ReadCard.pdb
+D:\ReadCard\ReadCard\obj\Debug\ReadCard.csprojResolveAssemblyReference.cache
+D:\ReadCard\ReadCard\obj\Debug\ReadCard.Form1.resources
+D:\ReadCard\ReadCard\obj\Debug\ReadCard.Properties.Resources.resources
+D:\ReadCard\ReadCard\obj\Debug\ReadCard.csproj.GenerateResource.Cache
