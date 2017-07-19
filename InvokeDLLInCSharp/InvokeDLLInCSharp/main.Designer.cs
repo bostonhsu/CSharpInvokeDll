@@ -58,7 +58,7 @@
             // 
             // btnReading
             // 
-            this.btnReading.Location = new System.Drawing.Point(164, 145);
+            this.btnReading.Location = new System.Drawing.Point(164, 156);
             this.btnReading.Name = "btnReading";
             this.btnReading.Size = new System.Drawing.Size(146, 43);
             this.btnReading.TabIndex = 2;
