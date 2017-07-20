@@ -240,5 +240,52 @@ namespace ReadCard
             confirmEmployee("");
             btnRecard_Click(sender, e);
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            // 把种类描述列在这里。
+            //初始化一个数据集 
+            DataSet DataTemp = new DataSet();
+            DataSet DataTemp1 = new DataSet();
+            DataSet DataTemp2 = new DataSet();
+            //初始化一个连接集 
+            SqlConnection _objCon = new SqlConnection(ConnString);
+            //打开连接 
+            _objCon.Open();
+            //做一个连接器 
+            SqlDataAdapter _myAdapter;
+            SqlDataAdapter _myAdapter1;
+            //scardcode = "1210875902";
+            //scardTemp = scardcode;
+            string tempString = "select CARD_CODE from BS_ACCO_CARD";
+            _myAdapter1 = new SqlDataAdapter(tempString, _objCon);
+            SqlCommandBuilder sqlCommand1 = new SqlCommandBuilder(_myAdapter1);
+            _myAdapter1.Fill(DataTemp1, "temp");
+
+            for (int i = 0; i < DataTemp1.Tables[0].Rows.Count; i++)
+            {
+                string queryStr = "SELECT BS_ACCO_INFO.ACCO_STUD_CODE, BS_ACCO_INFO.ACCO_NAME, BS_ACCO_CARD.CARD_CODE FROM BS_ACCO_INFO inner join BS_ACCO_CARD ON BS_ACCO_INFO.ACCO_ID = BS_ACCO_CARD.CARD_ACCO_ID WHERE(CARD_CODE = '" + DataTemp1.Tables[0].Rows[i][0].ToString() + "')";
+                _myAdapter = new SqlDataAdapter(queryStr, _objCon);
+                SqlCommandBuilder sqlCommand = new SqlCommandBuilder(_myAdapter);
+                SqlCommandBuilder sqlCommandTemp;
+                _myAdapter.Fill(DataTemp, "temp");
+                if (DataTemp.Tables[0].Rows.Count > 1)
+                {
+                    for (int j = 0; j < DataTemp.Tables[0].Rows.Count; j++)
+                    {
+                        string insertStr = "insert into Temp_Chongfu (Name, ScardCode, MenjinCode) values ('" + DataTemp.Tables[0].Rows[j][1].ToString() + "', '" + DataTemp.Tables[0].Rows[j][2].ToString() + "', '" + DataTemp.Tables[0].Rows[j][0].ToString() + "')";
+                        _myAdapter = new SqlDataAdapter(insertStr, _objCon);
+                        sqlCommandTemp = new SqlCommandBuilder(_myAdapter);
+                        _myAdapter.Fill(DataTemp2, "temp");
+                        DataTemp2.Clear();
+                    }
+                    
+                }
+                DataTemp.Clear();
+            }
+
+            _objCon.Close();
+            _objCon.Dispose();
+        }
     }
 }
