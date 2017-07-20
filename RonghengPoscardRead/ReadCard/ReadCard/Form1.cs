@@ -287,5 +287,11 @@ namespace ReadCard
             _objCon.Close();
             _objCon.Dispose();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            FrmYangYouGang aFrmYangYouGang = new FrmYangYouGang();
+            aFrmYangYouGang.Show();
+        }
     }
 }

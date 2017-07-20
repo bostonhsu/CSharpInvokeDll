@@ -24,3 +24,4 @@ C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\Read
 C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.Form1.resources
 C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.Properties.Resources.resources
 C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.FrmYangYouGang.resources
