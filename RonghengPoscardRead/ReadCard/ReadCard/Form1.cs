@@ -152,9 +152,9 @@ namespace ReadCard
             _objCon.Open();
             //做一个连接器 
             SqlDataAdapter _myAdapter;
-            //scardcode = "1210875902";
-            //scardTemp = scardcode;
-            string queryStr = "SELECT BS_ACCO_INFO.ACCO_STUD_CODE, BS_ACCO_INFO.ACCO_NAME FROM BS_ACCO_INFO inner join BS_ACCO_CARD ON BS_ACCO_INFO.ACCO_ID = BS_ACCO_CARD.CARD_ACCO_ID WHERE(CARD_CODE = '" + scardcode + "')";
+            scardcode = "0072512388";
+            scardTemp = scardcode;
+            string queryStr = "SELECT BS_ACCO_INFO.ACCO_STUD_CODE, BS_ACCO_INFO.ACCO_NAME FROM BS_ACCO_INFO inner join BS_ACCO_CARD ON BS_ACCO_INFO.ACCO_ID = BS_ACCO_CARD.CARD_ACCO_ID WHERE(CARD_CODE = '" + scardcode + "' and CARD_STATE=1)";
             _myAdapter = new SqlDataAdapter(queryStr, _objCon);
             //创建增删改查command对象 
             SqlCommandBuilder sqlCommand = new SqlCommandBuilder(_myAdapter);
@@ -257,14 +257,14 @@ namespace ReadCard
             SqlDataAdapter _myAdapter1;
             //scardcode = "1210875902";
             //scardTemp = scardcode;
-            string tempString = "select CARD_CODE from BS_ACCO_CARD";
+            string tempString = "select CARD_CODE from BS_ACCO_CARD where CARD_STATE=1";
             _myAdapter1 = new SqlDataAdapter(tempString, _objCon);
             SqlCommandBuilder sqlCommand1 = new SqlCommandBuilder(_myAdapter1);
             _myAdapter1.Fill(DataTemp1, "temp");
 
             for (int i = 0; i < DataTemp1.Tables[0].Rows.Count; i++)
             {
-                string queryStr = "SELECT BS_ACCO_INFO.ACCO_STUD_CODE, BS_ACCO_INFO.ACCO_NAME, BS_ACCO_CARD.CARD_CODE FROM BS_ACCO_INFO inner join BS_ACCO_CARD ON BS_ACCO_INFO.ACCO_ID = BS_ACCO_CARD.CARD_ACCO_ID WHERE(CARD_CODE = '" + DataTemp1.Tables[0].Rows[i][0].ToString() + "')";
+                string queryStr = "SELECT BS_ACCO_INFO.ACCO_STUD_CODE, BS_ACCO_INFO.ACCO_NAME, BS_ACCO_CARD.CARD_CODE FROM BS_ACCO_INFO inner join BS_ACCO_CARD ON BS_ACCO_INFO.ACCO_ID = BS_ACCO_CARD.CARD_ACCO_ID WHERE(CARD_CODE = '" + DataTemp1.Tables[0].Rows[i][0].ToString() + "' and CARD_STATE=1)";
                 _myAdapter = new SqlDataAdapter(queryStr, _objCon);
                 SqlCommandBuilder sqlCommand = new SqlCommandBuilder(_myAdapter);
                 SqlCommandBuilder sqlCommandTemp;
