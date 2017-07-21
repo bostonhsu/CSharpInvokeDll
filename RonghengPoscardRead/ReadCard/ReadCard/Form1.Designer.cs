@@ -134,7 +134,7 @@
             // btnRecard
             // 
             this.btnRecard.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnRecard.Location = new System.Drawing.Point(508, 218);
+            this.btnRecard.Location = new System.Drawing.Point(480, 218);
             this.btnRecard.Name = "btnRecard";
             this.btnRecard.Size = new System.Drawing.Size(98, 35);
             this.btnRecard.TabIndex = 10;
@@ -166,7 +166,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(546, 86);
+            this.button7.Location = new System.Drawing.Point(594, 221);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(94, 30);
             this.button7.TabIndex = 13;
@@ -194,6 +194,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
