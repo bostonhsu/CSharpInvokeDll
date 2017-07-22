@@ -74,6 +74,8 @@
             this.listBox18 = new System.Windows.Forms.ListBox();
             this.listBox19 = new System.Windows.Forms.ListBox();
             this.listBox20 = new System.Windows.Forms.ListBox();
+            this.listBox21 = new System.Windows.Forms.ListBox();
+            this.label24 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -336,6 +338,7 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.HorizontalScrollbar = true;
             this.listBox1.ItemHeight = 12;
             this.listBox1.Location = new System.Drawing.Point(46, 72);
             this.listBox1.Name = "listBox1";
@@ -345,6 +348,7 @@
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
+            this.listBox2.HorizontalScrollbar = true;
             this.listBox2.ItemHeight = 12;
             this.listBox2.Location = new System.Drawing.Point(159, 72);
             this.listBox2.Name = "listBox2";
@@ -354,6 +358,7 @@
             // listBox3
             // 
             this.listBox3.FormattingEnabled = true;
+            this.listBox3.HorizontalScrollbar = true;
             this.listBox3.ItemHeight = 12;
             this.listBox3.Location = new System.Drawing.Point(272, 72);
             this.listBox3.Name = "listBox3";
@@ -363,6 +368,7 @@
             // listBox4
             // 
             this.listBox4.FormattingEnabled = true;
+            this.listBox4.HorizontalScrollbar = true;
             this.listBox4.ItemHeight = 12;
             this.listBox4.Location = new System.Drawing.Point(383, 72);
             this.listBox4.Name = "listBox4";
@@ -372,6 +378,7 @@
             // listBox5
             // 
             this.listBox5.FormattingEnabled = true;
+            this.listBox5.HorizontalScrollbar = true;
             this.listBox5.ItemHeight = 12;
             this.listBox5.Location = new System.Drawing.Point(496, 72);
             this.listBox5.Name = "listBox5";
@@ -381,6 +388,7 @@
             // listBox6
             // 
             this.listBox6.FormattingEnabled = true;
+            this.listBox6.HorizontalScrollbar = true;
             this.listBox6.ItemHeight = 12;
             this.listBox6.Location = new System.Drawing.Point(608, 71);
             this.listBox6.Name = "listBox6";
@@ -390,6 +398,7 @@
             // listBox7
             // 
             this.listBox7.FormattingEnabled = true;
+            this.listBox7.HorizontalScrollbar = true;
             this.listBox7.ItemHeight = 12;
             this.listBox7.Location = new System.Drawing.Point(721, 71);
             this.listBox7.Name = "listBox7";
@@ -399,6 +408,7 @@
             // listBox8
             // 
             this.listBox8.FormattingEnabled = true;
+            this.listBox8.HorizontalScrollbar = true;
             this.listBox8.ItemHeight = 12;
             this.listBox8.Location = new System.Drawing.Point(834, 72);
             this.listBox8.Name = "listBox8";
@@ -408,6 +418,7 @@
             // listBox9
             // 
             this.listBox9.FormattingEnabled = true;
+            this.listBox9.HorizontalScrollbar = true;
             this.listBox9.ItemHeight = 12;
             this.listBox9.Location = new System.Drawing.Point(947, 72);
             this.listBox9.Name = "listBox9";
@@ -417,6 +428,7 @@
             // listBox10
             // 
             this.listBox10.FormattingEnabled = true;
+            this.listBox10.HorizontalScrollbar = true;
             this.listBox10.ItemHeight = 12;
             this.listBox10.Location = new System.Drawing.Point(1060, 72);
             this.listBox10.Name = "listBox10";
@@ -426,6 +438,7 @@
             // listBox11
             // 
             this.listBox11.FormattingEnabled = true;
+            this.listBox11.HorizontalScrollbar = true;
             this.listBox11.ItemHeight = 12;
             this.listBox11.Location = new System.Drawing.Point(46, 233);
             this.listBox11.Name = "listBox11";
@@ -435,15 +448,18 @@
             // listBox12
             // 
             this.listBox12.FormattingEnabled = true;
+            this.listBox12.HorizontalScrollbar = true;
             this.listBox12.ItemHeight = 12;
-            this.listBox12.Location = new System.Drawing.Point(154, 233);
+            this.listBox12.Location = new System.Drawing.Point(159, 233);
             this.listBox12.Name = "listBox12";
             this.listBox12.Size = new System.Drawing.Size(107, 136);
             this.listBox12.TabIndex = 57;
+            this.listBox12.SelectedIndexChanged += new System.EventHandler(this.listBox12_SelectedIndexChanged);
             // 
             // listBox13
             // 
             this.listBox13.FormattingEnabled = true;
+            this.listBox13.HorizontalScrollbar = true;
             this.listBox13.ItemHeight = 12;
             this.listBox13.Location = new System.Drawing.Point(272, 233);
             this.listBox13.Name = "listBox13";
@@ -453,6 +469,7 @@
             // listBox14
             // 
             this.listBox14.FormattingEnabled = true;
+            this.listBox14.HorizontalScrollbar = true;
             this.listBox14.ItemHeight = 12;
             this.listBox14.Location = new System.Drawing.Point(383, 233);
             this.listBox14.Name = "listBox14";
@@ -462,6 +479,7 @@
             // listBox15
             // 
             this.listBox15.FormattingEnabled = true;
+            this.listBox15.HorizontalScrollbar = true;
             this.listBox15.ItemHeight = 12;
             this.listBox15.Location = new System.Drawing.Point(496, 233);
             this.listBox15.Name = "listBox15";
@@ -471,6 +489,7 @@
             // listBox16
             // 
             this.listBox16.FormattingEnabled = true;
+            this.listBox16.HorizontalScrollbar = true;
             this.listBox16.ItemHeight = 12;
             this.listBox16.Location = new System.Drawing.Point(609, 233);
             this.listBox16.Name = "listBox16";
@@ -480,6 +499,7 @@
             // listBox17
             // 
             this.listBox17.FormattingEnabled = true;
+            this.listBox17.HorizontalScrollbar = true;
             this.listBox17.ItemHeight = 12;
             this.listBox17.Location = new System.Drawing.Point(722, 233);
             this.listBox17.Name = "listBox17";
@@ -489,6 +509,7 @@
             // listBox18
             // 
             this.listBox18.FormattingEnabled = true;
+            this.listBox18.HorizontalScrollbar = true;
             this.listBox18.ItemHeight = 12;
             this.listBox18.Location = new System.Drawing.Point(834, 233);
             this.listBox18.Name = "listBox18";
@@ -498,6 +519,7 @@
             // listBox19
             // 
             this.listBox19.FormattingEnabled = true;
+            this.listBox19.HorizontalScrollbar = true;
             this.listBox19.ItemHeight = 12;
             this.listBox19.Location = new System.Drawing.Point(947, 232);
             this.listBox19.Name = "listBox19";
@@ -507,17 +529,40 @@
             // listBox20
             // 
             this.listBox20.FormattingEnabled = true;
+            this.listBox20.HorizontalScrollbar = true;
             this.listBox20.ItemHeight = 12;
             this.listBox20.Location = new System.Drawing.Point(1060, 233);
             this.listBox20.Name = "listBox20";
             this.listBox20.Size = new System.Drawing.Size(107, 136);
             this.listBox20.TabIndex = 65;
             // 
+            // listBox21
+            // 
+            this.listBox21.FormattingEnabled = true;
+            this.listBox21.HorizontalScrollbar = true;
+            this.listBox21.ItemHeight = 12;
+            this.listBox21.Location = new System.Drawing.Point(1060, 418);
+            this.listBox21.Name = "listBox21";
+            this.listBox21.Size = new System.Drawing.Size(107, 136);
+            this.listBox21.TabIndex = 66;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label24.Location = new System.Drawing.Point(1058, 566);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(109, 20);
+            this.label24.TabIndex = 67;
+            this.label24.Text = "工位：机开";
+            // 
             // FrmYangYouGang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1258, 612);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.listBox21);
             this.Controls.Add(this.listBox20);
             this.Controls.Add(this.listBox19);
             this.Controls.Add(this.listBox18);
@@ -619,5 +664,7 @@
         private System.Windows.Forms.ListBox listBox18;
         private System.Windows.Forms.ListBox listBox19;
         private System.Windows.Forms.ListBox listBox20;
+        private System.Windows.Forms.ListBox listBox21;
+        private System.Windows.Forms.Label label24;
     }
 }

@@ -190,5 +190,10 @@ namespace ReadCard
             searchDateTime = dtpRiQi.Value;
             searchBanCi = int.Parse(cbBanCi.SelectedValue.ToString());
         }
+
+        private void listBox12_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

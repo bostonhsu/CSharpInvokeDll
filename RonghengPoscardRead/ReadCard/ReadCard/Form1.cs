@@ -298,5 +298,29 @@ namespace ReadCard
         {
 
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            FrmXiuMu aFrmXiuMu = new FrmXiuMu();
+            aFrmXiuMu.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            FrmLaJian aFrmLaJian = new FrmLaJian();
+            aFrmLaJian.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            FrmZhiGao aFrmLaJian = new FrmZhiGao();
+            aFrmLaJian.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            FrmHanJingLiPaiChan aFrmHanJingLiPaiChan = new FrmHanJingLiPaiChan();
+            aFrmHanJingLiPaiChan.Show();
+        }
     }
 }

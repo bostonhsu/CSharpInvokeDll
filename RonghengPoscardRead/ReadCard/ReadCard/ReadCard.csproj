@@ -74,19 +74,55 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmHanJingLiPaiChan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHanJingLiPaiChan.Designer.cs">
+      <DependentUpon>FrmHanJingLiPaiChan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLaJian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLaJian.Designer.cs">
+      <DependentUpon>FrmLaJian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmXiuMu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmXiuMu.Designer.cs">
+      <DependentUpon>FrmXiuMu.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmYangYouGang.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmYangYouGang.Designer.cs">
       <DependentUpon>FrmYangYouGang.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmZhiGao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmZhiGao.Designer.cs">
+      <DependentUpon>FrmZhiGao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmHanJingLiPaiChan.resx">
+      <DependentUpon>FrmHanJingLiPaiChan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLaJian.resx">
+      <DependentUpon>FrmLaJian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmXiuMu.resx">
+      <DependentUpon>FrmXiuMu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmYangYouGang.resx">
       <DependentUpon>FrmYangYouGang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmZhiGao.resx">
+      <DependentUpon>FrmZhiGao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
