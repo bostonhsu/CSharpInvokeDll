@@ -322,5 +322,11 @@ namespace ReadCard
             FrmHanJingLiPaiChan aFrmHanJingLiPaiChan = new FrmHanJingLiPaiChan();
             aFrmHanJingLiPaiChan.Show();
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            temp aTemp = new temp();
+            aTemp.Show();
+        }
     }
 }

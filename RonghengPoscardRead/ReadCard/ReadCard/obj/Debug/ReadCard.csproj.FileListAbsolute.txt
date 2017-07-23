@@ -29,3 +29,18 @@ C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\Read
 C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.FrmLaJian.resources
 C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.FrmZhiGao.resources
 C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.FrmHanJingLiPaiChan.resources
+C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\bin\Debug\ReadCard.exe.config
+C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.exe
+C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\bin\Debug\ReadCard.exe
+C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\bin\Debug\ReadCard.pdb
+C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.csprojResolveAssemblyReference.cache
+C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.Form1.resources
+C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.FrmHanJingLiPaiChan.resources
+C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.FrmLaJian.resources
+C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.FrmXiuMu.resources
+C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.FrmYangYouGang.resources
+C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.FrmZhiGao.resources
+C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.Properties.Resources.resources
+C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.temp.resources
+C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.csproj.GenerateResource.Cache
+C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.pdb
