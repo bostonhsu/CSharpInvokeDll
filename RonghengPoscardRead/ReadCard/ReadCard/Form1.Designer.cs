@@ -46,6 +46,9 @@
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
+            this.lstPersonalTask = new System.Windows.Forms.ListBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.cbBanCi = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // button1
@@ -61,11 +64,11 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button2.Location = new System.Drawing.Point(543, 146);
+            this.button2.Location = new System.Drawing.Point(418, 220);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(98, 35);
+            this.button2.Size = new System.Drawing.Size(123, 35);
             this.button2.TabIndex = 1;
-            this.button2.Text = "读卡";
+            this.button2.Text = "查看任务";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -102,10 +105,11 @@
             // 
             // txtName
             // 
+            this.txtName.Enabled = false;
             this.txtName.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtName.Location = new System.Drawing.Point(81, 220);
+            this.txtName.Location = new System.Drawing.Point(86, 220);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(153, 35);
+            this.txtName.Size = new System.Drawing.Size(94, 35);
             this.txtName.TabIndex = 6;
             // 
             // label1
@@ -122,7 +126,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(245, 227);
+            this.label2.Location = new System.Drawing.Point(186, 225);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(106, 24);
             this.label2.TabIndex = 8;
@@ -130,8 +134,9 @@
             // 
             // txtMenjin
             // 
+            this.txtMenjin.Enabled = false;
             this.txtMenjin.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtMenjin.Location = new System.Drawing.Point(336, 220);
+            this.txtMenjin.Location = new System.Drawing.Point(274, 220);
             this.txtMenjin.Name = "txtMenjin";
             this.txtMenjin.Size = new System.Drawing.Size(138, 35);
             this.txtMenjin.TabIndex = 9;
@@ -139,17 +144,18 @@
             // btnRecard
             // 
             this.btnRecard.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnRecard.Location = new System.Drawing.Point(480, 218);
+            this.btnRecard.Location = new System.Drawing.Point(582, 345);
             this.btnRecard.Name = "btnRecard";
             this.btnRecard.Size = new System.Drawing.Size(98, 35);
             this.btnRecard.TabIndex = 10;
             this.btnRecard.Text = "记录";
             this.btnRecard.UseVisualStyleBackColor = true;
+            this.btnRecard.Visible = false;
             this.btnRecard.Click += new System.EventHandler(this.btnRecard_Click);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(545, 297);
+            this.button5.Location = new System.Drawing.Point(602, 278);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(60, 24);
             this.button5.TabIndex = 11;
@@ -160,7 +166,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(181, 300);
+            this.button6.Location = new System.Drawing.Point(593, 308);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(87, 31);
             this.button6.TabIndex = 12;
@@ -222,7 +228,7 @@
             // button12
             // 
             this.button12.Location = new System.Drawing.Point(722, 34);
-            this.button12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button12.Margin = new System.Windows.Forms.Padding(2);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(99, 40);
             this.button12.TabIndex = 18;
@@ -230,11 +236,45 @@
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
+            // lstPersonalTask
+            // 
+            this.lstPersonalTask.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lstPersonalTask.FormattingEnabled = true;
+            this.lstPersonalTask.ItemHeight = 20;
+            this.lstPersonalTask.Location = new System.Drawing.Point(17, 261);
+            this.lstPersonalTask.Name = "lstPersonalTask";
+            this.lstPersonalTask.Size = new System.Drawing.Size(524, 204);
+            this.lstPersonalTask.TabIndex = 19;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(294, 194);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(29, 12);
+            this.label22.TabIndex = 44;
+            this.label22.Text = "班次";
+            // 
+            // cbBanCi
+            // 
+            this.cbBanCi.FormattingEnabled = true;
+            this.cbBanCi.Items.AddRange(new object[] {
+            "白班",
+            "夜班",
+            "早班"});
+            this.cbBanCi.Location = new System.Drawing.Point(329, 190);
+            this.cbBanCi.Name = "cbBanCi";
+            this.cbBanCi.Size = new System.Drawing.Size(83, 20);
+            this.cbBanCi.TabIndex = 43;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(840, 338);
+            this.ClientSize = new System.Drawing.Size(840, 490);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.cbBanCi);
+            this.Controls.Add(this.lstPersonalTask);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
@@ -281,6 +321,9 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.ListBox lstPersonalTask;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.ComboBox cbBanCi;
     }
 }
 

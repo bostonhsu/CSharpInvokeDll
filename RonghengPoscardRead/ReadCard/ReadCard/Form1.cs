@@ -139,6 +139,26 @@ namespace ReadCard
             confirmEmployee(scardcode);
             listBox1.TopIndex = listBox1.Items.Count - (int)(listBox1.Height / listBox1.ItemHeight);
             rf_beep(icdev, 15);
+            DateTime searchDateTime = DateTime.Now;
+            int searchBanCi = getBanCi(searchDateTime);
+            //MessageBox.Show("1. " + searchDateTime.ToString("d") + "\n2. " + searchBanCi.ToString());
+            ClearLstPersonalTaskContents();
+            SearchPersonalTask(searchDateTime, searchBanCi);
+        }
+
+        private void SearchPersonalTask(DateTime searchDateTime, int searchBanCi)
+        {
+            
+        }
+
+        private void ClearLstPersonalTaskContents()
+        {
+            lstPersonalTask.Items.Clear();
+        }
+
+        private int getBanCi(DateTime searchDateTime)
+        {
+            return 1;
         }
 
         private void confirmEmployee(string scardcode)
@@ -296,7 +316,30 @@ namespace ReadCard
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            InitCombo();
+        }
 
+        private void InitCombo()
+        {
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Text");
+            dt.Columns.Add("Value");
+            DataRow dr1 = dt.NewRow();
+            DataRow dr2 = dt.NewRow();
+            DataRow dr3 = dt.NewRow();
+            dr1["Text"] = "1-白班";
+            dr1["Value"] = "1";
+            dr2["Text"] = "2-夜班";
+            dr2["Value"] = "2";
+            dr3["Text"] = "3-早班";
+            dr3["Value"] = "3";
+            dt.Rows.Add(dr1);
+            dt.Rows.Add(dr2);
+            dt.Rows.Add(dr3);
+            cbBanCi.DataSource = dt;
+            cbBanCi.DisplayMember = "Text";
+            cbBanCi.ValueMember = "Value";
+            cbBanCi.SelectedIndex = 0;
         }
 
         private void button8_Click(object sender, EventArgs e)
