@@ -44,3 +44,4 @@ C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCar
 C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.temp.resources
 C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.csproj.GenerateResource.Cache
 C:\Users\Boston Hsu\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.pdb
+C:\Users\Administrator\Documents\GitHub\CSharpInvokeDll\RonghengPoscardRead\ReadCard\ReadCard\obj\Debug\ReadCard.temp.resources

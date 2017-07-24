@@ -291,7 +291,7 @@
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(353, 30);
+            this.label22.Location = new System.Drawing.Point(353, 24);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(29, 12);
             this.label22.TabIndex = 42;
@@ -300,7 +300,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(153, 30);
+            this.label23.Location = new System.Drawing.Point(153, 24);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(29, 12);
             this.label23.TabIndex = 43;
@@ -308,14 +308,14 @@
             // 
             // dtpRiQi
             // 
-            this.dtpRiQi.Location = new System.Drawing.Point(187, 26);
+            this.dtpRiQi.Location = new System.Drawing.Point(187, 20);
             this.dtpRiQi.Name = "dtpRiQi";
             this.dtpRiQi.Size = new System.Drawing.Size(149, 21);
             this.dtpRiQi.TabIndex = 44;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(500, 27);
+            this.button1.Location = new System.Drawing.Point(500, 19);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 45;
@@ -330,7 +330,7 @@
             "白班",
             "夜班",
             "早班"});
-            this.cbBanCi.Location = new System.Drawing.Point(388, 27);
+            this.cbBanCi.Location = new System.Drawing.Point(388, 20);
             this.cbBanCi.Name = "cbBanCi";
             this.cbBanCi.Size = new System.Drawing.Size(83, 20);
             this.cbBanCi.TabIndex = 41;
